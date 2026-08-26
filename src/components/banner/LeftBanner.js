@@ -5,10 +5,10 @@ import Media from "./Media";
 const LeftBanner = () => {
   const [text] = useTypewriter({
     words: [
-      "Flutter App Developer",
+      "Mobile App Developer",
       "Software Engineer",
       ".NET Backend Developer",
-      "Mobile App Developer",
+      
     ],
     loop: true,
     typeSpeed: 20,
