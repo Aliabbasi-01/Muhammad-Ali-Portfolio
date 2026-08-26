@@ -1,17 +1,9 @@
 import p1 from '../../assets/p1.webp'
-import p2 from '../../assets/p2.webp'
-import p3 from '../../assets/p3.webp'
 import p4 from '../../assets/p4.webp'
 import p5 from '../../assets/p5.webp'
 import p6 from '../../assets/p6.webp'
-import p7 from '../../assets/p6.png'
-import p8 from '../../assets/p8.jpg'
-import p9 from '../../assets/p9.jpg'
-import p10 from '../../assets/p10.jpg'
-import p11 from '../../assets/p11.jpg'
 import servcie from '../../assets/hisab.jpg'
 import cvpilot from '../../assets/cvpilot.jpg'
-import p12 from '../../assets/p12.jpg'
 import Title from '../layouts/Title'
 import ProjectsCard from './ProjectsCard';
 
