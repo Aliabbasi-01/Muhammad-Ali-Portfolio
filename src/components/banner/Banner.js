@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <section
       id="home"
-      className="w-full pt-6 pb-12 flex flex-row items-center border-b-[1px] border-b-black font-titleFont"
+      className="w-full pt-6 pb-12 flex flex-row items-start border-b-[1px] border-b-black font-titleFont"
     >
       <LeftBanner />
       <RightBanner />
