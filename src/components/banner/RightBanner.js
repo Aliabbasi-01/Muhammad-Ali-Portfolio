@@ -3,15 +3,16 @@ import { Profile } from "../../assets/index";
 
 const RightBanner = () => {
   return (
-    <div className="w-full mb-10 lgl:w-1/2 flex justify-center items-end relative h-[600px]">
-      {/* Emboss effect */}
-      <div className="absolute bottom-1/3 left-1/2 transform -translate-x-1/2 w-[300px] h-[300px]  bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne rounded-lg z-0"></div>
-      {/* Profile image */}
+    <div className="w-1/2 flex justify-center items-center relative h-[350px] sm:h-[400px] lgl:h-[600px]">
+
+      <div className="absolute w-[140px] h-[180px] sm:w-[200px] sm:h-[240px] lgl:w-[300px] lgl:h-[300px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne rounded-lg"></div>
+
       <img
-        className="absolute bottom-1/3 left-1/2 transform -translate-x-1/2 w-[300px] h-[400px] object-contain lgl:w-[500px] lgl:h-[480px]  z-10"
+        className="relative z-10 w-[170px] h-[250px] sm:w-[220px] sm:h-[320px] lgl:w-[500px] lgl:h-[480px] object-contain"
         src={Profile}
-        alt="bannerImg"
+        alt="Muhammad Ali"
       />
+
     </div>
   );
 };
